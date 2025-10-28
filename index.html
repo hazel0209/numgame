@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자 게임</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h3>Guess the Number!</h3>
+      <form>
+        <input
+          id="user"
+          placeholder="1부터 100까지의 수를 입력하세요"
+          onkeypress="if(event.keycode==13) {play()}"
+        /><button id="play">시작</button>
+        <button id="reset">재시작</button>
+      </form>
+      <div>
+        <p class="nums">The number is...</p>
+        <!-- <span id="result">up/down/bingo</span> -->
+        <img
+          id="result"
+          src="http://127.0.0.1:5501/%EC%88%AB%EC%9E%90%EB%A7%9E%EC%B6%94%EA%B8%B0%EA%B2%8C%EC%9E%843/img/numbers.png"
+          alt=""
+        />
+        <p class="chance"></p>
+      </div>
+      <p class="end">결과</p>
+    </div>
+    <script src="custom.js"></script>
+  </body>
+</html>

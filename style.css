@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.wrap {
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  padding: 50px 0px 80px;
+  box-sizing: border-box;
+  background-color: #d6f9ff;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h3 {
+  font-size: 6vw;
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  /* -webkit-text-stroke: 1px red; */
+  color: #ff98a9;
+  text-shadow: 2px 2px 0px #fff12a;
+}
+
+.nums {
+  margin: 10px 0px;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+#user {
+  width: 400px;
+  height: 10px;
+  align-items: center;
+  padding: 10px 6px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #ffecf0;
+  border: 2px solid pink;
+  border-radius: 4px;
+}
+
+#play {
+  background-color: #ffe5ae;
+  color: #f08205;
+  border-color: #ffc400;
+}
+#play:hover {
+  background-color: #ffdc8f;
+  border-color: #cc9f0b;
+}
+#reset {
+  background-color: #f36359;
+  color: #ffffff;
+  border-color: #a5231a;
+}
+#reset:hover {
+  background-color: #ee4b3f;
+  border-color: #920b02;
+}
+
+#play,
+#reset {
+  padding: 6px;
+  display: block;
+  margin-left: 16px;
+  word-break: keep-all;
+  font-family: "Noto Sans KR", sans-serif;
+  border-radius: 3px;
+  border-width: 1px;
+  cursor: pointer;
+}
+.wrap > div {
+  margin: 40px auto;
+  width: 70%;
+  height: 70%;
+  min-width: 60vh;
+  border-radius: 20px;
+  border: 1px solid #6cb8ff;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  background-color: #fff0dc;
+}
+/* #result {
+  display: block;
+  font-size: 7vw;
+  text-transform: uppercase;
+  letter-spacing: -0.2vw;
+  font-family: "Bagel Fat One", system-ui;
+} */
+#result {
+  display: block;
+  width: 50vh;
+  min-height: 40vh;
+  object-fit: cover;
+  margin: 0px auto;
+}
+/* #result img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.chance {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.end {
+  text-align: center;
+}
