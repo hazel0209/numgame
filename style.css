@@ -14,7 +14,7 @@
 }
 
 h3 {
-  font-size: 6vw;
+  font-size: 3.8rem;
   font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
   /* -webkit-text-stroke: 1px red; */
@@ -23,7 +23,7 @@ h3 {
 }
 
 .nums {
-  margin: 10px 0px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -79,6 +79,8 @@ form {
   width: 70%;
   height: 70%;
   min-width: 60vh;
+  max-height: 48vh;
+  padding: 2vh;
   border-radius: 20px;
   border: 1px solid #6cb8ff;
   align-content: center;
@@ -95,8 +97,8 @@ form {
 } */
 #result {
   display: block;
-  width: 50vh;
-  min-height: 40vh;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   margin: 0px auto;
 }
